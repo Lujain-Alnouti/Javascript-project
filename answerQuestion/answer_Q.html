@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer Question</title>
+    <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="answer.css">
+    <script src="answer.js"></script>
+</head>
+<body>
+    <nav class="nav_bar">
+        <img src="images/logo.png" alt="" class="logo">
+        <i class="fa-solid fa-arrow-right-from-bracket logout_icon" onclick="Logout()" id="logout"></i>
+    </nav>
+
+    <div class="img_and_title">
+        <img src="images/check.png" alt="" class="img_pageA">
+        <div class="title_pageA">
+            <span id="p1">HTML Quiz</span>
+            <br>
+            <span id="p2">Answer Questions</span>
+        </div>
+    </div>
+
+    <div class="flex-cont" >
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q1:What does HTML stand for?
+                <li class="wrong">Home Tool Markup Language</li>
+                <li class="wrong">Hyperlinks and Text Markup Language</li>
+                <li class="right">Hyper Text Markup Language</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q2: Choose the correct HTML element for the largest heading:
+                <li class="right">h1</li>
+                <li class="wrong">heading </li>
+                <li  class="wrong">h6 </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q3:What is the correct HTML element for inserting a line break?
+                <li class="wrong">lbreak tag</li>
+                <li  class="right">br tag </li>
+                <li  class="wrong">break tag </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q4:What is the correct HTML for making a drop-down list?
+                <li class="wrong">list tag</li>
+                <li class="right">select tag</li>
+                <li class="wrong">input type="dropdown"</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q5:Choose the correct HTML element to define important text
+                <li class="wrong">i tag</li>
+                <li class="wrong">important tag</li>
+                <li  class="right">strong tag </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q6:What is the correct HTML for creating a hyperlink?
+                <li class="wrong"> a url="https://www.google.com/">Google</a> </li>
+                <li  class="right">a href="https://www.google.com/">Google</a> </li>
+                <li  class="wrong">a>"https://www.google.com/"</a></li>
+            </ul>
+        </div>
+          <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q7:Which of these elements are all table tag elements?
+                <li class="wrong">table , head , tfoot tags</li>
+                <li class="right">table , tr , td tags</li>
+                <li class="wrong">thead , body , tr</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q8:Inline elements are normally displayed without starting a new line
+                <li class="right">True</li>
+                <li class="wrong">False </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q9:How can you make a numbered list?
+                <li class="wrong">ul tag</li>
+                <li  class="wrong">list tag </li>
+                <li  class="right">ol tag</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q10:What is the correct HTML for making a checkbox?
+                <li class="right">input type="checkbox"</li>
+                <li class="wrong">checkbox tag</li>
+                <li class="wrong">input type="check"</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q11:What is the correct HTML for making a text area?
+                <li class="right">input type="textarea"</li>
+                <li class="wrong">textarea tag</li>
+                <li  class="wrong">input type="textbox" </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q12:Block elements are normally displayed without starting a new line
+                <li class="wrong">True</li>
+                <li  class="right">False</li>
+                </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q13:Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?
+                <li class="right">!DOCTYPE html</li>
+                <li class="wrong">!DOCTYPE HTML5</li>
+                <li class="wrong">!DOCTYPE HTML public "https://www.google.com/" </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q15:What is the correct HTML element for playing audio files?
+                <li class="wrong">mp3 tag</li>
+                <li class="right">audio tag</li>
+                <li  class="wrong">sound tag </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q16:Which HTML element defines navigation links?
+                <li class="wrong">navigation tag </li>
+                <li  class="right">nav tag</li>
+                <li  class="wrong">navigate tag</li>
+            </ul>
+        </div>
+       
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q17:What is the correct HTML for making a text input field?
+                <li class="wrong">input type="textfield" </li>
+                <li class="right">input type="text"</li>
+                <li class="wrong">textfield tag</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q18:What is the correct HTML for inserting an image?
+                <li class="wrong">img href="image.gif" alt="MyImage"</li>
+                <li class="wrong">image src="image.gif" alt="MyImage" </li>
+                <li class="right">img src="image.gif" alt="MyImage"</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q19:Which HTML element defines the title of a document?
+                <li class="wrong">meta tag</li>
+                <li  class="right">title tag </li>
+                <li  class="wrong">head tag</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:lower-alpha;">
+                Q20:Which HTML element is used to specify a footer for a document or section?
+                <li class="wrong">bottom tag</li>
+                <li class="right">footer tag</li>
+                <li class="wrong">section tag</li>
+            </ul>
+        </div>
+       <br>
+    </div>
+    <footer>
+        <a href="">Contact Us</a> <a href="">About Us</a>
+        <span>© 2022 Developers Academy. All Rights Reserved</span>
+        <img src="images/logo.png" alt="">
+    </footer>
+    <script src="answer.js"></script>
+</body>
+</html>
